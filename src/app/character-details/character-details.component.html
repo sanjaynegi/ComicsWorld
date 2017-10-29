@@ -1,0 +1,11 @@
+<div class="details" *ngFor="let result of results " >
+
+<span >
+    <img src='{{result.thumbnail.path}}/portrait_fantastic.{{result.thumbnail.extension}}' >
+    <h4>
+     <b>{{result.name}}</b> <br/>
+     
+</h4>
+    </span>
+    <button (click)="goBack()">Back</button>
+</div>

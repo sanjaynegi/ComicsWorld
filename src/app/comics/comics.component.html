@@ -1,0 +1,30 @@
+<!-- <div class="charSpacing" *ngFor="let result of results " >
+
+<span class="txt">
+    <img src='{{result.thumbnail.path}}/portrait_fantastic.{{result.thumbnail.extension}}' >
+    <h4>
+     <b>{{result.title}}</b> <br/>
+     <a  [routerLink]="['/comics', result.id]" >View Details</a>
+</h4>
+    </span>
+</div>
+<div class="nxtBtn">
+<button (click)="previous()">Previous</button>
+ <button (click)="nextPage()">Next</button>
+ </div> -->
+ 
+ <div class="row" *ngFor="let result of results " >
+
+  <div class="col-sm-6 col-md-4" *ngFor="let item of result" >
+ <!--  <div class="col-sm-6 col-md-4"  > -->
+    <div class="thumbnail">
+      <img src='{{item.thumbnail.path}}/portrait_fantastic.{{item.thumbnail.extension}}'>
+      <div class="caption">
+        <b>{{item.title}}</b> <br/>
+     <a  [routerLink]="['/comics', item.id]" >View Details</a>
+      </div>
+    </div>
+  </div>
+  
+</div>
+

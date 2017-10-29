@@ -1,0 +1,45 @@
+
+.row {
+    margin: 0px !important;
+}
+
+.charSpacing{
+
+   
+        margin: 0 auto;
+    width: 100%;
+
+}
+.charSpacing img{margin-bottom:30px;}
+.txt{
+
+	    display: block;
+    float: left;
+        margin-top: 50px;
+            padding: 0px 20px;
+}
+.txt h4{
+
+	padding-right: 40px;
+       text-align: center;
+    margin-top: -18px;
+}
+.txt b{font-size: 13px;}
+.txt a {    font-size: 11px;
+text-align: center;}
+.nxtBtn
+{
+
+	    clear: both;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.thumbnail{border:none;}
+.thumbnail .caption {
+   
+    text-align: center;
+}
+body {
+    margin: 10px !important;
+}

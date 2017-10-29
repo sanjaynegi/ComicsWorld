@@ -1,0 +1,14 @@
+<div class="charSpacing" *ngFor="let result of results " >
+
+<span class="txt">
+    <img src='{{result.thumbnail.path}}/portrait_fantastic.{{result.thumbnail.extension}}' >
+    <h4>
+     <b>{{result.name}}</b> <br/>
+     <a  [routerLink]="['/characters', result.id]" >View Details</a>
+</h4>
+    </span>
+</div>
+<div class="nxtBtn">
+<button (click)="previous()">Previous</button>
+ <button (click)="nextPage()">Next</button>
+ </div>
