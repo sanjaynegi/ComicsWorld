@@ -1,6 +1,6 @@
 # ComicsWorld
 
-Dummy app,consumes marvel API
+Dummy app,consumes marvel API  to display Comics and Character List
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
